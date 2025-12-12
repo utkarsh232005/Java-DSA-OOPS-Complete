@@ -1,0 +1,13 @@
+.DS_Store
+
+# Compiled Java artifacts
+*.class
+
+# Common IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS/Editor temp
+*.swp
+*.tmp

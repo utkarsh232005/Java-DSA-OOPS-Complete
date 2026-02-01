@@ -12,6 +12,7 @@ public class Findequilibrium {
         }
         long leftSum = 0;
         for (int idx = 0; idx < arr.length; idx++) {
+            totalSum -= arr[idx];
             if (leftSum == totalSum) {
                 return idx;
             }

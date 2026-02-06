@@ -1,4 +1,3 @@
-
 public class recursion1 {
 
     public static void printDec(int n) {
@@ -24,7 +23,7 @@ public class recursion1 {
             return 1;
         }
         int fnm1 = printFac(n - 1);
-        int fn = n * printFac(n - 1);
+        int fn = n * fnm1;
         return fn;
 
     }
@@ -34,7 +33,7 @@ public class recursion1 {
             return 1;
         }
         int sum1 = natSum(n - 1);
-        int sum = n + natSum(n - 1);
+        int sum = n + sum1;
         return sum;
     }
 
@@ -92,8 +91,8 @@ public class recursion1 {
 
     public static void main(String[] args) {
         int n = 0;
-        int arr[] = {1, 2, 3, 4, 5, 6, 5};
-        // System.out.println(lastOcc(arr, n, 5));
+        int arr[] = { 1, 2, 3, 4, 5, 6, 5 };
+        System.out.println(lastOcc(arr, n, 5));
         System.out.println(power(2, 10));
 
     }

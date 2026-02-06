@@ -1,4 +1,3 @@
-
 public class tiling {
 
     public static int tilingSol(int n) {
@@ -7,9 +6,9 @@ public class tiling {
             return 1;
         }
 
-        //take the vertical choice
+        // take the vertical choice
         int verticalTile = tilingSol(n - 1);
-        //take the horizontal choice
+        // take the horizontal choice
         int horiTile = tilingSol(n - 2);
         int maxWays = verticalTile + horiTile;
         return maxWays;

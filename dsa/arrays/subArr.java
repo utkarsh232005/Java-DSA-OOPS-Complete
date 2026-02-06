@@ -1,9 +1,9 @@
 
 public class subArr {
 
-    public static void subArr(int num[]) {
+    public static void printSubArr(int num[]) {
         int currSum = 0;
-        int maxSum = Integer.MIN_VALUE; //for maxSub array sum convert this to Integer.MIN_VALUE
+        int maxSum = Integer.MIN_VALUE; // for maxSub array sum convert this to Integer.MIN_VALUE
         int prefix[] = new int[num.length];
         prefix[0] = num[0];
         for (int i = 1; i < prefix.length; i++) {
@@ -15,12 +15,12 @@ public class subArr {
                 int end = j;
                 currSum = curr == 0 ? prefix[end] : prefix[end] - prefix[curr - 1];
                 // for (int k = curr; k <= end; k++) {
-                //     // System.out.print(num[k] + " ");
-                //     currSum += num[k];
+                // // System.out.print(num[k] + " ");
+                // currSum += num[k];
                 // }
                 System.out.print(currSum + " ");
                 // if (maxSum < currSum) { // this for maxSub array sum
-                //     maxSum = currSum;
+                // maxSum = currSum;
                 // }
                 if (maxSum < currSum) {
                     maxSum = currSum; // this gives minSub array sum
@@ -32,7 +32,7 @@ public class subArr {
     }
 
     public static void main(String[] args) {
-        int num[] = {1, 2, 3, 4, 5, 6};
-        subArr(num);
+        int num[] = { 1, 2, 3, 4, 5, 6 };
+        printSubArr(num);
     }
 }

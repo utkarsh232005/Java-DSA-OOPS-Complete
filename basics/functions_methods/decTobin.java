@@ -1,7 +1,6 @@
-
 public class decTobin {
 
-    public static int decTobin(int n) {
+    public static int convertDecToBin(int n) {
         int pow = 0;
         int bin = 0;
         while (n > 0) {
@@ -15,6 +14,6 @@ public class decTobin {
     }
 
     public static void main(String args[]) {
-        decTobin(5);
+        convertDecToBin(5);
     }
 }

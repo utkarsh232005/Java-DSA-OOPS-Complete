@@ -1,4 +1,3 @@
-
 public class firstFunc {
 
     public static void printHello() {

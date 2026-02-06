@@ -1,4 +1,3 @@
-
 public class selectionSort {
 
     public static void select(int arr[]) {
@@ -9,7 +8,7 @@ public class selectionSort {
                     min = j;
                 }
             }
-            //swaping
+            // swaping
             int temp = arr[min];
             arr[min] = arr[i];
             arr[i] = temp;
@@ -24,7 +23,7 @@ public class selectionSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = {5, 4, 1, 2, 3};
+        int arr[] = { 5, 4, 1, 2, 3 };
         select(arr);
         print(arr);
     }

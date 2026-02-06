@@ -1,4 +1,3 @@
-
 public class getshortestPath {
 
     public static float shortestpath(String path) {

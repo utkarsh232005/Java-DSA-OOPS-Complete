@@ -1,4 +1,3 @@
-
 public class firstCharUpperCase {
 
     public static String upperCase(String str) {

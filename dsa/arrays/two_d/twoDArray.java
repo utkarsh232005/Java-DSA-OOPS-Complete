@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class twoDArray {
@@ -20,13 +19,14 @@ public class twoDArray {
     public static void main(String[] args) {
         int matrix[][] = new int[3][3];
         int n = 3, m = 3;
-        Scanner in = new Scanner(System.in);
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                matrix[i][j] = in.nextInt();
+        try (Scanner in = new Scanner(System.in)) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    matrix[i][j] = in.nextInt();
+                }
             }
         }
-        //output
+        // output
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 System.out.print(matrix[i][j] + " ");

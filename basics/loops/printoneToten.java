@@ -1,4 +1,3 @@
-
 public class printoneToten {
 
     public static void main(String args[]) {

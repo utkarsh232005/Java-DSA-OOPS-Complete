@@ -1,7 +1,6 @@
-
 public class isEven {
 
-    public static boolean isEven(int n) {
+    public static boolean checkEven(int n) {
         if (n % 2 == 0) {
             return true;
         } else {
@@ -11,7 +10,7 @@ public class isEven {
 
     public static void main(String[] args) {
         int n = 3;
-        if (isEven(n)) {
+        if (checkEven(n)) {
             System.out.println("True");
         } else {
             System.out.println("False");

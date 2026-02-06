@@ -1,4 +1,3 @@
-
 public class substring {
 
     public static String substr(String str, int si, int ei) {

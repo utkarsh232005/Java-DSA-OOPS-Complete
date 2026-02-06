@@ -1,4 +1,3 @@
-
 public class Consecativeones {
 
     public static void consecativeOnes(int n, int lastPlace, String str) {

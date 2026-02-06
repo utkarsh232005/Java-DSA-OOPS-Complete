@@ -1,4 +1,3 @@
-
 public class factorial {
 
     public static int fac(int n) {

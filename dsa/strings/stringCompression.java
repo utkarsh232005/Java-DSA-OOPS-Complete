@@ -1,4 +1,3 @@
-
 public class stringCompression {
 
     public static StringBuilder strCompression(String str) {

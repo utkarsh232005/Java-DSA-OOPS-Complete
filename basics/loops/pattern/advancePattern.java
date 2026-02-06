@@ -1,4 +1,3 @@
-
 public class advancePattern {
 
     public static void hallowPattern(int totRows, int totCol) {
@@ -14,7 +13,7 @@ public class advancePattern {
         }
     }
 
-    public static void invHalf(int n) { //this needed to be dryruned before moving to another lecture
+    public static void invHalf(int n) { // this needed to be dryruned before moving to another lecture
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
@@ -28,7 +27,7 @@ public class advancePattern {
         }
     }
 
-    public static void invHalfNum(int n) {//this needed to be dryruned
+    public static void invHalfNum(int n) {// this needed to be dryruned
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i + 1; j++) {
                 System.out.print(j + " ");
@@ -38,7 +37,7 @@ public class advancePattern {
 
     }
 
-    public static void floyad(int n) {//this needed to be dryruned
+    public static void floyad(int n) {// this needed to be dryruned
         int counter = 1;
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
@@ -49,7 +48,7 @@ public class advancePattern {
         }
     }
 
-    public static void zeroOne(int n) {//this needed to be dryruned
+    public static void zeroOne(int n) {// this needed to be dryruned
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 if ((i + j) % 2 == 0) {

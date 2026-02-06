@@ -1,4 +1,3 @@
-
 public class binomialFunc {
 
     public static int factorial(int n) {

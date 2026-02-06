@@ -1,4 +1,3 @@
-
 public class queOne {
 
     public static boolean checkNum(int nums[]) {
@@ -28,7 +27,7 @@ public class queOne {
     }
 
     public static void main(String[] args) {
-        int num[] = {1, 2, 3, 1};
+        int num[] = { 1, 2, 3, 1 };
         System.out.println(checkNum(num));
 
     }

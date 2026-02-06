@@ -1,4 +1,3 @@
-
 public class duplicateString {
 
     public static void removeDuplicates(String str, int idx, StringBuilder newStr, boolean map[]) {
@@ -18,7 +17,6 @@ public class duplicateString {
 
     public static void main(String[] args) {
         String str = "uttkarshh";
-        removeDuplicates(str, 0, new StringBuilder(""), new boolean[26]
-        );
+        removeDuplicates(str, 0, new StringBuilder(""), new boolean[26]);
     }
 }

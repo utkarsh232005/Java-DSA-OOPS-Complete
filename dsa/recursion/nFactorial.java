@@ -1,4 +1,3 @@
-
 public class nFactorial {
 
     public static int fact(int n) {

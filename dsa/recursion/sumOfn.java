@@ -1,4 +1,3 @@
-
 public class sumOfn {
 
     public static int sum(int n) {

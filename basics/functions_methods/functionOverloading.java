@@ -1,5 +1,4 @@
-
-public class functionOverloading {//this type of function overloading is called as parameter function overloading
+public class functionOverloading {// this type of function overloading is called as parameter function overloading
 
     public static int sum(int num1, int num2) {
         return num1 + num2;

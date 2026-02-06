@@ -1,7 +1,6 @@
-
 public class binTodec {
 
-    public static void binTodec(int n) {
+    public static void convertBinToDec(int n) {
         int enterBin = n;
         int pow = 0;
         int dec = 0;
@@ -16,6 +15,6 @@ public class binTodec {
     }
 
     public static void main(String[] args) {
-        binTodec(101);
+        convertBinToDec(101);
     }
 }

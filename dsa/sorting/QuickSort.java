@@ -1,4 +1,3 @@
-
 public class QuickSort {
 
     public static void printArr(int[] arr) {
@@ -12,20 +11,20 @@ public class QuickSort {
         if (si >= ei) {
             return;
         }
-        //last element
+        // last element
         int pvtIdx = partition(arr, si, ei);
-        sort(arr, si, pvtIdx - 1);//left part
+        sort(arr, si, pvtIdx - 1);// left part
         sort(arr, pvtIdx + 1, ei);
 
     }
 
     public static int partition(int[] arr, int si, int ei) {
         int pvot = arr[ei];
-        int i = si - 1; //make place for the smaller numbers then pivot
+        int i = si - 1; // make place for the smaller numbers then pivot
         for (int j = si; j < ei; j++) {
             if (arr[j] <= pvot) {
                 i++;
-                //swap
+                // swap
                 int temp = arr[j];
                 arr[j] = arr[i];
                 arr[i] = temp;
@@ -39,7 +38,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {6, 3, 9, 8, 2, 5};
+        int[] arr = { 6, 3, 9, 8, 2, 5 };
         sort(arr, 0, arr.length - 1);
         printArr(arr);
     }

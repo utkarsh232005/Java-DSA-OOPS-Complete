@@ -1,5 +1,4 @@
 public class Gridways {
-
     public static int numOfways(int i, int j, int n, int m) {
         if (i == n - 1 && j == m - 1) {
             return 1;

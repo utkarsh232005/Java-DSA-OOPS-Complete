@@ -1,6 +1,4 @@
-
 public class onArrays {
-
     public static void changeArr(int[] arr, int i, int val) {
         if (i == arr.length) {
             printArr(arr);

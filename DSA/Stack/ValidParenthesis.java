@@ -1,0 +1,53 @@
+package DSA.Stack;
+
+import java.util.Stack;
+
+public class ValidParenthesis {
+    public static boolean isValid(String str) {
+        Stack<Character> s = new Stack<>();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            // opening bracket
+            if (ch == '[' || ch == '{' || ch == '(') {
+                s.push(ch);
+            } else {
+                // closing brackets
+                if (s.isEmpty()) {
+                    return false;
+                }
+                if ((s.peek() == '(' && ch == ')') || (s.peek() == '{' && ch == '}')
+                        || (s.peek() == '[' && ch == ']')) {
+                    s.pop();
+                } else {
+                    return false;
+                }
+            }
+        }
+        if (s.isEmpty()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        String[] testCases = { "()", // Valid
+                "()[]{}", // Valid
+                "([{}])", // Valid
+                "(", // Invalid - incomplete
+                ")", // Invalid - closing without opening
+                "([)]", // Invalid - mismatched
+                "{[}]", // Invalid - mismatched
+                "", // Valid - empty string
+                "((()))", // Valid
+                "[{()}]" // Valid
+        };
+
+        System.out.println("Testing ValidParenthesis.isValid():\n");
+        for (String testCase : testCases) {
+            boolean result = isValid(testCase);
+            System.out.println("Input: \"" + testCase + "\" => " + result);
+        }
+    }
+}

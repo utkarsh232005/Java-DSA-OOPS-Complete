@@ -1,4 +1,4 @@
-package dsa.Linkedlist;
+package DSA.Linkedlist;
 
 public class DetectCycle {
     public static class Node {

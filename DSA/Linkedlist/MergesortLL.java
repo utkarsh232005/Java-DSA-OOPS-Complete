@@ -1,8 +1,6 @@
-package dsa.Linkedlist;
+package DSA.Linkedlist;
 
 import java.util.*;
-
-import dsa.Linkedlist.RemoveNfromend.Node;
 
 public class MergesortLL {
     public static class Node {

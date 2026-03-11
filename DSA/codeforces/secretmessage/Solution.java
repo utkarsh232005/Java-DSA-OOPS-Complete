@@ -1,4 +1,4 @@
-package dsa.codeforces.secretmessage;
+package DSA.codeforces.secretmessage;
 
 import java.io.*;
 import java.util.*;

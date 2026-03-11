@@ -1,4 +1,3 @@
-package dsa.arrays;
 
 public class SlidingWindow {
     public static int maxSubarr(int[] arr, int w) {

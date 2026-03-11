@@ -1,4 +1,4 @@
-package dsa.LeetCode;
+package DSA.LeetCode;
 
 public class Mostwater {
     public static int mostWater(int height[]) {

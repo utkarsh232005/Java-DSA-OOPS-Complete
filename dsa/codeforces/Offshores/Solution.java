@@ -1,4 +1,4 @@
-package dsa.codeforces.Offshores;
+package DSA.codeforces.Offshores;
 
 import java.io.*;
 import java.util.*;

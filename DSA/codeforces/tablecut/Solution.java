@@ -1,4 +1,4 @@
-package dsa.codeforces.tablecut;
+package DSA.codeforces.tablecut;
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package dsa.LeetCode;
+package DSA.LeetCode;
 
 public class Problem153 {
     class solution {

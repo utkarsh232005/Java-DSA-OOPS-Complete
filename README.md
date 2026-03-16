@@ -4,6 +4,9 @@
 [![DSA](https://img.shields.io/badge/Data_Structures-00599C?style=for-the-badge&logo=leetcode&logoColor=white)](#dsa)
 [![OOPS](https://img.shields.io/badge/OOP_Concepts-blueviolet?style=for-the-badge)](#oops)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/utkarsh232005/Java-DSA-OOPS-Complete?style=for-the-badge)](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/stargazers)
+[![Forks](https://img.shields.io/github/forks/utkarsh232005/Java-DSA-OOPS-Complete?style=for-the-badge)](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete/network/members)
+[![Visits](https://komarev.com/ghpvc/?username=utkarsh232005&repo=Java-DSA-OOPS-Complete&style=flat-square&color=blue)](https://github.com/utkarsh232005/Java-DSA-OOPS-Complete)
 
 A comprehensive collection of **79+ Java programs** covering **Java Basics**, **Data Structures & Algorithms (DSA)**, and **Object-Oriented Programming (OOP)** concepts — perfect for beginners and interview preparation! 🎯
 
@@ -23,17 +26,37 @@ A comprehensive collection of **79+ Java programs** covering **Java Basics**, **
 
 ```
 java-dsa-oops/
-├── basics/                    # Core Java fundamentals
-│   ├── functions_methods/     # Functions & method examples
-│   └── loops/                 # Loop patterns & problems
-│       └── pattern/           # Star & number patterns
-├── dsa/                       # Data Structures & Algorithms
-│   ├── arrays/                # Array operations & problems
-│   │   ├── two_d/             # 2D array & matrix problems
-│   │   └── assignment/        # Practice assignments
-│   ├── sorting/               # Sorting algorithms
-│   ├── strings/               # String manipulation
-│   └── recursion/             # Recursion problems
+├── BASICS/                    # Core Java fundamentals
+│   ├── functions_methods/
+│   └── loops/
+├── DSA/                       # Data Structures & Algorithms
+│   ├── ArrayList/
+│   ├── Backtracking/
+│   ├── BinaryTree/
+│   ├── Greedy/
+│   ├── LeetCode/
+│   ├── Linkedlist/
+│   ├── QUEUE/
+│   ├── Stack/
+│   ├── arrays/
+│   ├── codeforces/
+│   ├── recursion/
+│   ├── sorting/
+│   └── strings/
+├── basics/                    # Core Java fundamentals (duplicate/lowercase)
+│   ├── functions_methods/
+│   └── loops/
+├── dsa/                       # Data Structures & Algorithms (duplicate/lowercase)
+│   ├── ArrayList/
+│   ├── Backtracking/
+│   ├── LeetCode/
+│   ├── Linkedlist/
+│   ├── arrays/
+│   ├── codeforces/
+│   ├── recursion/
+│   ├── sorting/
+│   └── strings/
+├── gfgQues/                   # GeeksforGeeks Questions
 └── oops/                      # OOP concepts & examples
 ```
 

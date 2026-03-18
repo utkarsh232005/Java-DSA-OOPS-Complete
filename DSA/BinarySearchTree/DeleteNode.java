@@ -1,4 +1,4 @@
-package DSA.BinaryTree.BinarySearchTree;
+package DSA.BinarySearchTree;
 
 public class DeleteNode {
     static class Node {

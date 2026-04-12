@@ -13,9 +13,9 @@ public class LongestValidWord {
             }
         }
 
-        public static Node root = new Node();
+        public Node root = new Node();
 
-        public static void insert(String word) {
+        public void insert(String word) {
             Node curr = root;
             for (int i = 0; i < word.length(); i++) {
                 int idx = word.charAt(i) - 'a';
@@ -27,7 +27,7 @@ public class LongestValidWord {
             curr.eow = true;
         }
 
-        public static String ans = "";
+        public String ans = "";
 
         public String longestValidWord(String[] words) {
             // code here
@@ -40,7 +40,7 @@ public class LongestValidWord {
             return ans;
         }
 
-        public static void longestWord(Node root, StringBuilder temp) {
+        public void longestWord(Node root, StringBuilder temp) {
             if (root == null) {
                 return;
             }
@@ -57,5 +57,14 @@ public class LongestValidWord {
                 }
             }
         }
+    }
+
+    public static void main(String[] args) {
+        LongestValidWord outer = new LongestValidWord();
+        Solution sol = outer.new Solution();
+
+        String[] words = { "a", "banana", "app", "appl", "ap", "apply", "apple" };
+        String result = sol.longestValidWord(words);
+        System.out.println("Longest valid word: " + result);
     }
 }
